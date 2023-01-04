@@ -4,16 +4,9 @@
 @import "./components/navbar.css";
 @import "./components/footer.css";
 
-* {
-  font-family: Manrope, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  color: var(--simple-silver);
-}
-
 .wrapper-header {
+  position: sticky;
+  top: 0;
   background-color: var(--simple-white);
 }
 
