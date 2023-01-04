@@ -1,0 +1,23 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./reset.css";
+@import "./components/navbar.css";
+@import "./components/footer.css";
+
+* {
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--simple-silver);
+}
+
+.wrapper-header {
+  background-color: var(--simple-white);
+}
+
+.container {
+  max-width: 1064px;
+  margin: 0 auto;
+}
