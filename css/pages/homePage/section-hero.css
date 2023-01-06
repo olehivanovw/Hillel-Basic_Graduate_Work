@@ -1,0 +1,61 @@
+.section-hero {
+  padding-top: 88px;
+}
+
+.section-hero-info {
+  margin: 0 auto 64px;
+  text-align: center;
+  max-width: 752px;
+}
+
+.section-hero-info__text {
+  margin-bottom: 32px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--simple-blue);
+}
+
+.section-hero-info-heading {
+  margin-bottom: 32px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  color: var(--simple-black);
+}
+
+.section-hero-info-heading__mark {
+  color: var(--mark-silver);
+}
+
+.section-hero-info-discription {
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 460px;
+}
+
+.section-hero__app-img {
+  margin: 0 auto;
+}
+
+.info-center-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--normal-blue);
+  background-clip: padding-box;
+  border: 8px solid rgba(79, 104, 255, 0.1);
+}
+
+.info-center-btn__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

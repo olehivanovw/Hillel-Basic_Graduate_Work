@@ -8,9 +8,16 @@
   position: sticky;
   top: 0;
   background-color: var(--simple-white);
+  border-bottom: 1px solid #ECECEC;
+}
+
+.wrapper-hero {
+  background-color: var(--simple-white);
+  border-radius: 0 0 40px 40px;
 }
 
 .container {
   max-width: 1064px;
   margin: 0 auto;
+  padding: 0 12px;
 }
