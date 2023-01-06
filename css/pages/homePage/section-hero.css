@@ -28,7 +28,7 @@
   color: var(--mark-silver);
 }
 
-.section-hero-info-discription {
+.section-hero-info__discription {
   margin: 0 auto;
   font-size: 16px;
   font-weight: 400;
@@ -38,24 +38,5 @@
 
 .section-hero__app-img {
   margin: 0 auto;
-}
-
-.info-center-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background: var(--normal-blue);
-  background-clip: padding-box;
-  border: 8px solid rgba(79, 104, 255, 0.1);
-}
-
-.info-center-btn__img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 

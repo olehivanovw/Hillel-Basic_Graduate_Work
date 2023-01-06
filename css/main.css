@@ -3,6 +3,7 @@
 @import "./reset.css";
 @import "./components/navbar.css";
 @import "./components/footer.css";
+@import "./components/button-call.css";
 
 .wrapper-navbar {
   position: sticky;
@@ -20,4 +21,9 @@
   max-width: 1064px;
   margin: 0 auto;
   padding: 0 12px;
+}
+
+.wrapper-wireframe {
+  background-color: var(--simple-white);
+  border-radius: 40px 40px 0 0;
 }
