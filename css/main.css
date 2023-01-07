@@ -32,3 +32,7 @@
 .wrapper-features {
   background-color: var(--simple-white);
 }
+
+.wrapper-subscribe {
+  background: var(--simple-white) url("../img/pages/homePage/subscribe/city.svg") bottom repeat no-repeat;
+}

@@ -31,3 +31,9 @@ button {
   border: none;
   font: inherit;
 }
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+}
