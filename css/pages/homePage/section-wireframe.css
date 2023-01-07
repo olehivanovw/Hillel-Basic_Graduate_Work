@@ -72,6 +72,7 @@
   .section-wireframe-use {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 64px;
     row-gap: 40px;
   }
@@ -93,6 +94,7 @@
   .section-wireframe-drop {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 64px;
     row-gap: 40px;
   }

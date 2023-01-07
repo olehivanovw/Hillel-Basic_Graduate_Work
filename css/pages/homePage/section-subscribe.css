@@ -49,3 +49,18 @@
 .btn.section-subscribe-form__btn {
   padding: 12px 20px;
 }
+
+@media (max-width: 390px) {
+  .wrapper-subscribe {
+    background: var(--simple-white) url("../../../img/pages/homePage/subscribe/city.svg") bottom/180% repeat no-repeat;
+  }
+
+  .section-subscribe {
+    padding-bottom: 192px;
+  }
+
+  .section-subscribe__heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
