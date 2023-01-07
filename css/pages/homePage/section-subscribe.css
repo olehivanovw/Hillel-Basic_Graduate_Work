@@ -38,10 +38,10 @@
   border-radius: 50px;
 }
 
-.section-subscribe__input {
+.section-subscribe-form__input {
   color: var(--simple-black);
 }
 
-.section-subscribe-form__btn {
+.btn.section-subscribe-form__btn {
   padding: 12px 20px;
 }
