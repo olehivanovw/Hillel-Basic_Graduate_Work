@@ -30,6 +30,10 @@
   color: var(--simple-black);
 }
 
+.navbar-list-item__link:hover {
+  color: var(--normal-blue);
+}
+
 .navbar-burger {
   display: none;
 }

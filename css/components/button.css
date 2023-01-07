@@ -7,3 +7,7 @@
   background-color: var(--normal-blue);
   border-radius: 58px;
 }
+
+.btn:hover {
+  background-color: #23369d;
+}

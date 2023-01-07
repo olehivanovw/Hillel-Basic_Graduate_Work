@@ -8,6 +8,7 @@
   background: var(--normal-blue);
   background-clip: padding-box;
   border: 8px solid rgba(79, 104, 255, 0.1);
+  transition: all .2s .2s;
 }
 
 .btn-call__logo {
@@ -15,4 +16,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.btn-call:hover {
+  background-color: #23369d;
+  transform: rotate(45deg);
 }
