@@ -4,6 +4,7 @@
 @import "./components/navbar.css";
 @import "./components/footer.css";
 @import "./components/button-call.css";
+@import "./components/button.css";
 
 .wrapper-navbar {
   position: sticky;
@@ -26,4 +27,8 @@
 .wrapper-wireframe {
   background-color: var(--simple-white);
   border-radius: 40px 40px 0 0;
+}
+
+.wrapper-features {
+  background-color: var(--simple-white);
 }

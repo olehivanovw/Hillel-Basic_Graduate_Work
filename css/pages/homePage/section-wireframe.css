@@ -31,7 +31,6 @@
   line-height: 30px;
 }
 .section-wireframe-drop {
-  margin-bottom: 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
