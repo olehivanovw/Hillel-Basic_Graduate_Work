@@ -6,17 +6,7 @@
 @import "./components/button-call.css";
 @import "./components/button.css";
 
-.wrapper-navbar {
-  position: sticky;
-  top: 0;
-  background-color: var(--simple-white);
-  border-bottom: 1px solid #ECECEC;
-}
-
-.wrapper-hero {
-  background-color: var(--simple-white);
-  border-radius: 0 0 40px 40px;
-}
+.wrapper {}
 
 .container {
   max-width: 1064px;
@@ -24,15 +14,8 @@
   padding: 0 12px;
 }
 
-.wrapper-wireframe {
-  background-color: var(--simple-white);
-  border-radius: 40px 40px 0 0;
-}
-
-.wrapper-features {
-  background-color: var(--simple-white);
-}
-
-.wrapper-subscribe {
-  background: var(--simple-white) url("../img/pages/homePage/subscribe/city.svg") bottom repeat no-repeat;
+@media (max-width: 390px) {
+  .container {
+    padding: 0 24px;
+  }
 }

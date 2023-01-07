@@ -1,3 +1,8 @@
+.wrapper-wireframe {
+  background-color: var(--simple-white);
+  border-radius: 40px 40px 0 0;
+}
+
 .section-wireframe {
   padding: 120px 0;
 }

@@ -1,3 +1,7 @@
+.wrapper-subscribe {
+  background: var(--simple-white) url("../../../img/pages/homePage/subscribe/city.svg") bottom repeat no-repeat;
+}
+
 .section-subscribe {
   padding-bottom: 292px;
   margin: 0 auto;

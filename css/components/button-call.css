@@ -22,3 +22,9 @@
   background-color: #23369d;
   transform: rotate(45deg);
 }
+
+@media (max-width: 390px) {
+  .btn-call {
+    display: none;
+  }
+}

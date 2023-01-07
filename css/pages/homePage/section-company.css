@@ -26,3 +26,18 @@
   line-height: 30px;
   color: var(--simple-white);
 }
+
+@media (max-width: 390px) {
+  .section-company {
+    padding: 64px 0;
+  }
+
+  .section-company__img {
+    margin-bottom: 34px;
+  }
+
+  .section-company-discription__heading {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}

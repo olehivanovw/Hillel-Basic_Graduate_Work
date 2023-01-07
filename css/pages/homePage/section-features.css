@@ -1,3 +1,7 @@
+.wrapper-features {
+  background-color: var(--simple-white);
+}
+
 .section-features {
   padding-bottom: 120px;
 }

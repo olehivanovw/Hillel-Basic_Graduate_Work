@@ -1,3 +1,10 @@
+.wrapper-navbar {
+  position: sticky;
+  top: 0;
+  background-color: var(--simple-white);
+  border-bottom: 1px solid #ECECEC;
+}
+
 .container.container-navbar {
   max-width: 1264px;
   margin: 0 auto;
@@ -41,6 +48,10 @@
 .navbar-burger__img {}
 
 @media (max-width: 390px) {
+  .container.container-navbar {
+    padding: 0 24px;
+  }
+
   .navbar-list {
     display: none;
   }

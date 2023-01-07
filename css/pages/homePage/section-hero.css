@@ -1,3 +1,8 @@
+.wrapper-hero {
+  background-color: var(--simple-white);
+  border-radius: 0 0 40px 40px;
+}
+
 .section-hero {
   padding-top: 88px;
 }
@@ -38,5 +43,24 @@
 
 .section-hero__app-img {
   margin: 0 auto;
+}
+
+@media (max-width: 390px) {
+  .section-hero {
+    padding-top: 64px;
+  }
+
+  .section-hero-info {
+    margin: 0 auto 56px;
+  }
+
+  .section-hero-info-heading {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .section-hero__app-img {
+    max-width: 320px;
+  }
 }
 
