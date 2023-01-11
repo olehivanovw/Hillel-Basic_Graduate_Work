@@ -18,20 +18,33 @@
       <a href="#" class="navbar-logo">
         <img src="img/pages/homePage/navbar/logo.svg" alt="geekout-logo" class="navbar-logo__img">
       </a>
-      <ul class="navbar-list">
-        <li class="navbar-list-item">
-          <a href="#" class="navbar-list-item__link">Главная</a>
-        </li>
-        <li class="navbar-list-item">
-          <a href="#" class="navbar-list-item__link">О нас</a>
-        </li>
-        <li class="navbar-list-item">
-          <a href="#" class="navbar-list-item__link">Почему мы</a>
-        </li>
-      </ul>
-      <button class="navbar-burger">
-        <img src="img/pages/homePage/navbar/burger.svg" alt="burger" class="navbar-burger__img">
-      </button>
+      <div class="navbar-menu">
+        <ul class="navbar-menu-list">
+          <li class="navbar-menu-list-item">
+            <a href="#" class="navbar-menu-list-item__link">Главная</a>
+          </li>
+          <li class="navbar-menu-list-item">
+            <a href="#" class="navbar-menu-list-item__link">О нас</a>
+          </li>
+          <li class="navbar-menu-list-item">
+            <a href="#" class="navbar-menu-list-item__link">Почему мы</a>
+          </li>
+        </ul>
+        <section class="navbar-menu-social">
+          <a href="#" class="navbar-menu-social-icon" target="_blank">
+            <img src="./img/pages/homePage/footer/telegram_icon_b.svg" alt="telegram" class="navbar-menu-social-icon__img">
+          </a>
+          <a href="#" class="navbar-menu-social-icon" target="_blank">
+            <img src="./img/pages/homePage/footer/facebook_icon_b.svg" alt="facebook" class="navbar-menu-social-icon__img">
+          </a>
+          <a href="#" class="navbar-menu-social-icon" target="_blank">
+            <img src="./img/pages/homePage/footer/linkedin_icon_b.svg" alt="linkedin" class="navbar-menu-social-icon__img">
+          </a>
+        </section>
+      </div>
+      <div class="navbar-burger-btn">
+        <span class="navbar-burger-btn__icon"></span>
+      </div>
     </nav>
   </div>
 </div>
@@ -208,6 +221,8 @@
     </footer>
   </div>
 </div>
+
+<script src="js/components/navbar_burger.js"></script>
 
 </body>
 </html>
